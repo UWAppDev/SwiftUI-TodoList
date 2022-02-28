@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29964DC27CC6C9500248112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29964DB27CC6C9500248112 /* Assets.xcassets */; };
 		D2AD8C92239B364E0078D3A9 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD8C91239B364E0078D3A9 /* TodoItem.swift */; };
 		D2AD8C94239B3A5C0078D3A9 /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD8C93239B3A5C0078D3A9 /* TodoStore.swift */; };
 		D2BCEA24239A42A4008EA0C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCEA23239A42A4008EA0C0 /* AppDelegate.swift */; };
 		D2BCEA26239A42A4008EA0C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCEA25239A42A4008EA0C0 /* SceneDelegate.swift */; };
 		D2BCEA28239A42A4008EA0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCEA27239A42A4008EA0C0 /* ContentView.swift */; };
-		D2BCEA2A239A42A5008EA0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BCEA29239A42A5008EA0C0 /* Assets.xcassets */; };
 		D2BCEA2D239A42A5008EA0C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BCEA2C239A42A5008EA0C0 /* Preview Assets.xcassets */; };
 		D2BCEA30239A42A5008EA0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BCEA2E239A42A5008EA0C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2651A5D239B589A002B3E10 /* TodoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoList.entitlements; sourceTree = "<group>"; };
+		D29964DB27CC6C9500248112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2AD8C91239B364E0078D3A9 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		D2AD8C93239B3A5C0078D3A9 /* TodoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStore.swift; sourceTree = "<group>"; };
 		D2BCEA20239A42A4008EA0C0 /* Todo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BCEA23239A42A4008EA0C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2BCEA25239A42A4008EA0C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2BCEA27239A42A4008EA0C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D2BCEA29239A42A5008EA0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2BCEA2C239A42A5008EA0C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2BCEA2F239A42A5008EA0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2BCEA31239A42A5008EA0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +42,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D29964DA27CC6C6300248112 /* TodoList.swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCEA27239A42A4008EA0C0 /* ContentView.swift */,
+				D2AD8C93239B3A5C0078D3A9 /* TodoStore.swift */,
+				D2AD8C91239B364E0078D3A9 /* TodoItem.swift */,
+				D29964DB27CC6C9500248112 /* Assets.xcassets */,
+			);
+			path = TodoList.swiftpm;
+			sourceTree = "<group>";
+		};
 		D2BCEA17239A42A4008EA0C0 = {
 			isa = PBXGroup;
 			children = (
+				D29964DA27CC6C6300248112 /* TodoList.swiftpm */,
 				D2BCEA22239A42A4008EA0C0 /* TodoList */,
 				D2BCEA21239A42A4008EA0C0 /* Products */,
 			);
@@ -64,10 +76,6 @@
 				D2651A5D239B589A002B3E10 /* TodoList.entitlements */,
 				D2BCEA23239A42A4008EA0C0 /* AppDelegate.swift */,
 				D2BCEA25239A42A4008EA0C0 /* SceneDelegate.swift */,
-				D2BCEA27239A42A4008EA0C0 /* ContentView.swift */,
-				D2AD8C93239B3A5C0078D3A9 /* TodoStore.swift */,
-				D2AD8C91239B364E0078D3A9 /* TodoItem.swift */,
-				D2BCEA29239A42A5008EA0C0 /* Assets.xcassets */,
 				D2BCEA2E239A42A5008EA0C0 /* LaunchScreen.storyboard */,
 				D2BCEA31239A42A5008EA0C0 /* Info.plist */,
 				D2BCEA2B239A42A5008EA0C0 /* Preview Content */,
@@ -143,7 +151,7 @@
 			files = (
 				D2BCEA30239A42A5008EA0C0 /* LaunchScreen.storyboard in Resources */,
 				D2BCEA2D239A42A5008EA0C0 /* Preview Assets.xcassets in Resources */,
-				D2BCEA2A239A42A5008EA0C0 /* Assets.xcassets in Resources */,
+				D29964DC27CC6C9500248112 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,14 +306,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
-				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.UWAppDev.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.uwapp.TodoList;
 				PRODUCT_NAME = "Todo List";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,14 +329,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TodoList/Preview Content\"";
-				DEVELOPMENT_TEAM = KZ7D8X3PRK;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.UWAppDev.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.uwapp.TodoList;
 				PRODUCT_NAME = "Todo List";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
